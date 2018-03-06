@@ -1,0 +1,87 @@
+Day 1
+Tags:
+Tag based learning from the website. Going sequentially. (p,span,div,img,h1-h6,hr,br,a,lists)
+        -Illustrate on ordered and unordered list. Difference between them and how we can start from any position.
+        -Difference between span and div tags keeping the website in mind. Illustrate live.
+        -Highlight the need for the image to be in the same folder as the website.
+        -hr and br
+        -Anchor tag (1 line theory)
+        -background image. How to apply. What options are available.
+        -h1-h6-->What are they, how to use them.
+1.	<!DOCTYPE html>
+•	The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag.
+•	The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+•	In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was based on SGML. The DTD specifies the rules for the markup language, so that the browsers render the content correctly.
+•	HTML5 is not based on SGML, and therefore does not require a reference to a DTD.
+•	Tip: Always add the <!DOCTYPE> declaration to your HTML documents, so that the browser knows what type of document to expect.
+2.	<meta>
+•	Metadata is data (information) about data.
+•	The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable.
+•	Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.
+•	The metadata can be used by browsers (how to display content or reload page), search engines (keywords), or other web services.
+•	HTML5 introduced a method to let web designers take control over the viewport (the user's visible area of a web page), through the <meta> tag (See "Setting The Viewport" example below).
+•	Note: <meta> tags always go inside the <head> element.
+•	Note: Metadata is always passed as name/value pairs.
+•	You should include the following <meta> viewport element in all your web pages:
+•	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+•	A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+•	The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+•	The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+3.	<title>
+•	The <title> tag is required in all HTML documents and it defines the title of the document.
+4.	<body>
+•	The <body> tag defines the document's body.
+•	The <body> element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.
+5.	<h1>-<h6>
+•	The <h1> to <h6> tags are used to define HTML headings.
+•	<h1> defines the most important heading. <h6> defines the least important heading.
+6.	<hr>
+•	The <hr> tag defines a thematic break in an HTML page (e.g. a shift of topic).
+•	The <hr> element is used to separate content (or define a change) in an HTML page.
+7.	<center>
+•	Align text in center
+8.	<p>
+•	The <p> tag defines a paragraph.
+•	Browsers automatically add some space (margin) before and after each <p> element. The margins can be modified with CSS (with the margin properties).
+9.	<img>
+•	The <img> tag defines an image in an HTML page.
+•	The <img> tag has two required attributes: src and alt.
+i.	Note: Images are not technically inserted into an HTML page, images are linked to HTML pages. The <img> tag creates a holding space for the referenced image.
+ii.	Tip: To link an image to another document, simply nest the <img> tag inside <a> tags.
+10.	Block Level elements vs Inline elements
+Block Level	Inline
+•	Render to begin in new line	•	Same Line
+•	May contain inline or other block level elements	•	May contain only other inline elements
+•	Flow Content	•	Phrasing Content
+•	Eg: <p>, <div>	•	Eg: <span>, <a>, <img>
+
+11.	<div>
+•	The <div> tag defines a division or a section in an HTML document.
+•	The <div> tag is used to group block-elements to format them with CSS.
+•	By default browsers render div and add line before and after div tag
+12.	<span>
+•	The <span> tag is used to group inline-elements in a document.
+•	The <span> tag provides no visual change by itself.
+•	The <span> tag provides a way to add a hook to a part of a text or a part of a document.
+13.	<a>
+•	The <a> tag defines a hyperlink, which is used to link from one page to another.
+•	The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+•	By default, links will appear as follows in all browsers:
+i.	An unvisited link is underlined and blue
+ii.	A visited link is underlined and purple
+iii.	An active link is underlined and red
+14.	Href
+•	The href attribute specifies the URL of the page the link goes to.
+•	If the href attribute is not present, the <a> tag is not a hyperlink.
+15.	Closing 
+16.	<br>
+•	The <br> tag inserts a single line break.
+•	The <br> tag is an empty tag which means that it has no end tag.
+•	Tip: The <br> tag is useful for writing addresses or poems.
+•	Note: Use the <br> tag to enter line breaks, not to separate paragraphs.
+17.	Lists:
+•	The <ul> tag defines an unordered (bulleted) list.
+•	Use the <ul> tag together with the <li> tag to create unordered lists.
+•	The <li> tag defines a list item.
+•	The <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical.
+
